@@ -22,7 +22,7 @@ def preprocess_SST():
     #print('len(LABEL.vocab)', len(LABEL.vocab))
     
     train_iter, val_iter, test_iter = torchtext.data.BucketIterator.splits(
-        (train, val, test), batch_size=10, device=-1, repeat=False)
+        (train, val, test), batch_size=50, device=-1, repeat=False)
     
     # Build the vocabulary with word embeddings
     url = 'https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.simple.vec'
