@@ -30,7 +30,7 @@ model = LogisticRegression(len(TEXT.vocab), len(LABEL.vocab))
 # Loss and Optimizer
 # Softmax is internally computed.
 # Set parameters to be updated.
-criterion = nn.CrossEntropyLoss()  
+criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, )  
 
 # Training the Model
