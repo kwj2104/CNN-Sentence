@@ -1,4 +1,4 @@
-# NBSVM
+# CNN for NLP
 A Python implementation of convolutional neural networks (CNN) trained on top of pre-trained word vectors
 for sentence-level classification tasks based on "[Convolutional Neural Networks for Sentence Classification](http://www.aclweb.org/anthology/D14-1181)" by Yoon Kim.
 
